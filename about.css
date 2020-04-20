@@ -1,0 +1,10 @@
+body {
+  background-image: url(./images/hack.jpeg);
+  
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    background-color: darkslategray;
+  }
+}

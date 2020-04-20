@@ -1,0 +1,36 @@
+body {
+  background-image: url("./images/life.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-bar {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: oblique;
+  font-size: x-large;
+  padding: 90px 0px 0px 700px;
+}
+.nav-bar-link a {
+  color: rgb(221, 43, 19);
+  transition: 1s;
+  text-underline-position: below solid white;
+  text-decoration: none;
+}
+
+.nav-bar-link a:hover {
+  color: rgb(240, 178, 178);
+}
+p {
+  font-size: 50px;
+  font-style: oblique;
+  text-align: center;
+  color: darkorange;
+  padding-top: 20%;
+  font-weight: bold;
+}
+@media screen and (min-width: 500px) {
+  body {
+    opacity: 1;
+  }
+}
